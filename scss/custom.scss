@@ -1,0 +1,62 @@
+
+.ios-progress .photo-progress, .android-progress .photo-progress {
+  position: relative;
+  background-color: #c5f39b;
+
+  .full {
+    background-color: #96de33;
+    transition: width 1s cubic-bezier(0.1, 0.7, 0.4, 1);
+    height: 15px;
+  }
+
+  .shrink {
+    background-color: #96de33;
+    transition: width 1s cubic-bezier(0.1, 0.7, 0.4, 1);
+    height: 5px;
+  }
+}
+
+.ios-progress .day-progress, .android-progress .day-progress {
+  position: relative;
+  background-color: #fffaa3;
+
+  .full {
+    background-color: #F2E638;
+    transition: width 1s cubic-bezier(0.1, 0.7, 0.4, 1);
+    height: 15px;
+  }
+
+  .shrink {
+    background-color: #F2E638;
+    transition: width 1s cubic-bezier(0.1, 0.7, 0.4, 1);
+    height: 5px;
+  }
+}
+
+.photo-progress, .day-progress {
+  background: orange;
+  height: 1.5em;
+
+  span {
+    position: absolute;
+    font-weight: 400;
+    font-size: smaller;
+    width: 100%;
+    left: 0.5em;
+    color: #666;
+  }
+
+  .full {
+    border: 1px solid;
+    background-color: #F2E638;
+    transition: width 1s cubic-bezier(0.1, 0.7, 0.4, 1);
+    height: 1.5em;
+  }
+
+  .shrink {
+    border: 1px solid;
+    background-color: #F2E638;
+    transition: width 1s cubic-bezier(0.1, 0.7, 0.4, 1);
+    height: 1.5em;
+  }
+}
